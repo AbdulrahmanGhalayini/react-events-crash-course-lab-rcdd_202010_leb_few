@@ -14,7 +14,7 @@ export default class ChromeBoisDomain extends Component {
      handleClick() {
      toggleCycling();
     }
-  handelkeypress(){
+  handelkeypress(e){
     
   }
 
