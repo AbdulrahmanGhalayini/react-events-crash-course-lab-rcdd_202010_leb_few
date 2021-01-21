@@ -9,12 +9,11 @@ export default class ChromeBoisDomain extends Component {
      let y = event.pageY;
    drawChromeBoiAtCoords( 33 , 44);
 
-    /* TODO: This method should capture the `x` and `y` coordinates of the mouse
-     * from the event and use them to invoke the `drawChromeBoiAtCoords`
-     * function that has been provided and is already imported
-     * (`drawChromeBoiAtCoords` expects two arguments, an x and a y coordinate)
-     */
   }
+  
+     handleClick() {
+     toggleCycling();
+    }
   
   /* TODO: Create an event handler which, when fired, invokes the provided
    * `toggleCycling` function with no arguments. Don't forget the click event
