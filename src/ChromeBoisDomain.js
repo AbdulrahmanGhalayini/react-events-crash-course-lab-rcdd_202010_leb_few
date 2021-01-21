@@ -14,7 +14,12 @@ export default class ChromeBoisDomain extends Component {
      handleClick() {
      toggleCycling();
     }
-  handelkeypress(e){
+  handelkeypress(event){
+     if(event.key === 'a')
+     resize('+');
+     else 
+          resize('-');
+
     
   }
 
